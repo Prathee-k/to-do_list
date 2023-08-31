@@ -1,0 +1,275 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+/* section{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+} */
+input{
+    text-align: start;
+    padding: 5px;
+    border: none;
+}
+.plus{
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    color: white;
+    /* background-color: rgb(30, 212, 30); */
+    background-color: #445069;
+    padding: 1px;
+margin-left: 5px;
+}
+.plus:hover{
+    color: white;
+background-color:#4e7b72;
+}
+.bin{
+    font-size: 25px;
+/* color:#252B48; */
+/* color: black; */
+/* color: #4FC0D0; */
+color: white;
+}
+.edit{
+    font-size: 30px;
+color:  #445069;
+margin-left: 5px;
+position: relative;
+
+}
+.edit :hover{
+color:  #31353e;
+background-color: #252B48;
+}
+.items{
+border: 0.1px solid white;
+color: black;
+background-color: rgb(215, 233, 233);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+   font-size: 22px;
+   font-family: 'Lumanosimo', cursive;
+
+}
+input{
+    height: 35px;
+    width: 340px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 0.1px solid gray;
+}
+
+.display{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 3px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lumanosimo', cursive;
+}
+.title h1{
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+background-image: linear-gradient(rgb(176, 176, 199),rgb(98, 127, 134));
+
+color: white;
+}
+.ck{
+    margin-top: 5px;
+    width: 160px;
+    padding: 5px;
+    font-family: 'Permanent Marker', cursive;
+font-size: 20px;
+border: none;
+/* background-color: #5B9A8B; */
+background-color: #164B60;
+/* color: white; */
+color: #d7e3e4;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 200px;
+}
+.ck:hover{
+background-color:#216688; 
+color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h3{
+    width: 320px;
+    font-family: 'Lumanosimo', cursive;
+    padding: 5px;
+}
+.pen{
+    position: relative;
+    left: 150px;
+}
+.btn{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.del{
+    font-size: 40px;
+color:#252B48;
+    border-radius: 50%;
+}
+.del:hover{
+    color:  #64759a;
+
+}
+.bt{
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+.item{
+    width: 420px;
+    height: 75px;
+    margin: auto;
+    /* background-color: #88ada5; */
+background-color: rgb(215, 233, 233);
+
+    border-radius: 10px 10px 10px 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+@media screen and (max-width:350px) {
+    *{
+        text-align: center;
+    }
+    .App{
+        margin-left: 15px;
+    }
+.item{
+    margin: auto;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+    .inp{
+        width: 180px;
+        position: relative;
+        right: 20px;
+        font-size: 16px;
+    }
+    .plus{
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    .items{
+        width: 220px;
+    }
+   
+    .del{
+        position: relative;
+        right: 95px;
+    }
+    .listname{
+        font-size: 20px;
+    }
+    
+    p{
+        text-align: center;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .ck{
+        width: 120px;
+        font-size: 15px;
+    }
+    .bin{
+        font-size: 20px;
+    }.plus{
+        font-size: 30px;
+     }
+     .items{
+     }
+     .edit{
+         position: relative;
+         right: 90px;
+         font-size: 20px;
+     }
+     .del{
+         position: relative;
+         right: 90px;
+         font-size: 28px;
+     
+     }
+}
+@media screen and (min-width:351px)and (max-width:576px) {
+    *{
+        text-align: center;
+    }
+.item{
+  width: 300px;
+}
+.inp{
+    width: 220px;
+    position: relative;
+    font-size: 16px;
+}
+.plus{
+   font-size: 30px;
+}
+.items{
+    width: 280px;
+}
+.edit{
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+}
+.del{
+    position: relative;
+    right: 50px;
+    font-size: 28px;
+
+}
+.listname{
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.ck{
+    width: 120px;
+    font-size: 15px;
+}
+.bin{
+    font-size: 20px;
+}
+}
